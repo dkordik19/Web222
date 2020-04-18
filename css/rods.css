@@ -1,0 +1,24 @@
+.rods-container:hover {
+  border: 2px solid rgba(255, 255, 255, 0.664);
+}
+.rods-container {
+  border: 2px solid black;
+  transition: all 0.4s;
+}
+.rods-container img {
+  box-shadow: 0px 0px 5px 1px black;
+  display: block;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rods-container {
+    width: 80% !important;
+  }
+  .rods-container:hover {
+    border: 2px solid rgba(255, 255, 255, 0.664);
+    width: 85% !important;
+    height: 85% !important;
+  }
+}
